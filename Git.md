@@ -2,7 +2,7 @@ Git
 
 There are three parts which are present in our project directory - 
 1. Working tree - This is bascially all the files and folder which are there in our project folder.
-2. Staging area / Index - This is a place where the files which have been changed by us is present. We need to add those files in the staging area so that it could be further commited to the local repository.
+2. Staging area / Index - This is a place where the files which have been changed by us are present. We need to add those files in the staging area so that it could be further commited to the local repository.
 3. Local repository - This is the place which contains the commit. It is bascally a snapshot of ou project.
 
 NOTE : Local repository and staging area/index are stored in .git folder which is presnt in our project directory.
