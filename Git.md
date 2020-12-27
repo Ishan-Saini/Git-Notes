@@ -2,10 +2,10 @@ Git
 
 There are three parts which are present in our project directory - 
 1. Working tree - This is bascially all the files and folder which are there in our project folder.
-2. Staging area / Index - This is a place where the files which have been changed by us are present. We need to add those files in the staging area so that it could be further commited to the local repository.
-3. Local repository - This is the place which contains the commit. It is bascally a snapshot of ou project.
+2. Staging area / Index - This is a place where the files which have been changed by us are present. We need to add those files in the staging area so that it can be further commited to the local repository.
+3. Local repository - This is the place which contains the commit. It is bascally a snapshot of our project.
 
-NOTE : Local repository and staging area/index are stored in .git folder which is presnt in our project directory.
+NOTE : Local repository and staging area/index are stored in .git folder which is present in our project directory.
 
 * * *
 - To link a local repository with a remote repository, we need to add the remote.
@@ -14,9 +14,9 @@ NOTE : Local repository and staging area/index are stored in .git folder which i
 - To push our commits from local  repo to a remote repo 
 	`git push -u origin <branch name>`
 	
-	The -u flag is used to set origin as the upstream remote in your git config. As you push a branch successfully or up to date it, it adds upstream reference.
+	The -u flag is used to set origin as the upstream remote in your git config. As you push a branch successfully or update it, it adds upstream reference.
 
-	As you push local branch with (the) git push -u option, that local branch is linked with the remote branch automatically. The advantage is, you may use git pull without any arguments.
+	As you push local branch with git push -u option, that local branch is linked with the remote branch automatically. The advantage is, you may use git pull without any arguments.
 * * *
 
 - Git uses **Directed Acyclic Graph(DAG)** to represent commit history. In these graphs a commit always points towards its parent.
